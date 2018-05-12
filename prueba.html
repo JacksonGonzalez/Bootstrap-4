@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    
+</head>
+<body>
+    <h1>Bootstrap</h1>
+        <a class="btn btn-primary" data-toggle="collapse" href="#ejemplo1" role="button" aria-expanded="true" aria-controls="collapseExample">
+          ejemplo 1
+        </a>
+        <a class="btn btn-primary" data-toggle="collapse" href="#ejemplo1" role="button" aria-expanded="true" aria-controls="collapseExample">
+            Ejemplo 2
+        </a>
+    <div class="container">
+        <div class="row text-center nav-li">
+            <ul class="list-inline">
+                <div class="text-center ">
+                    <li class="list-inline-item d-inline"><a href="#all" data-toggle="collapse" aria-expanded="false">All</a></li>
+                    <li class="list-inline-item d-inline"><a href="#place" data-toggle="collapse" aria-expanded="false">Places to Live</a></li>
+                    <li class="list-inline-item d-inline"><a href="#cultural" data-toggle="collapse">Cultural</a></li>
+                    <li class="list-inline-item d-inline"><a href="#commercial" data-toggle="collapse">Commercial</a></li>
+                    <li class="list-inline-item d-inline"><a href="#" data-toggle="collapse">Plastic Surgery Clinic</a></li>
+                    <li class="list-inline-item d-inline"><a href="#" data-toggle="collapse">Landscaping</a></li>
+                    <li class="list-inline-item d-inline"><a href="#" data-toggle="collapse">Public Buildings</a></li>
+                    <li class="list-inline-item d-inline"><a href="#" data-toggle="collapse">Unbuilt</a></li>
+                </div> 
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="collapse row" id="all">
+            <div class="card card-body">
+              all
+            </div>
+        </div>
+        <div class="collapse row" id="place">
+            <div class="card card-body">
+              place
+            </div>
+        </div>
+        <div class="collapse row" id="cultural">
+            <div class="card card-body">
+              cultural
+            </div>
+        </div>
+        <div class="collapse row" id="commercial">
+            <div class="card card-body">
+                Commercial
+            </div>
+        </div>
+    </div>
+
+        
+    <div class="collapse" id="ejemplo1">
+        <div class="card card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <ul class="nav ">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+              </ul>
+        </div>
+    </div>
+
+    <p class="font-weight-bold"> hello world </p>
+    <p class="font-italic"> hello world </p>
+    <p class="font-weight-normal"> hello world </p>
+
+
+    <p class="text-uppercase"> hello world </p>
+    <p class="text-lowercaase"> hello world </p>
+    <p class="text-capitalize"> hello world </p>
+
+    <!-- alineacion -->
+    <p class="text-left">Hola Mundo</p>
+    <p class="text-center">Hola Mundo</p>
+    <p class="text-right">Hola Mundo</p>
+
+    <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
