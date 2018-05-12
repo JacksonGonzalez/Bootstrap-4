@@ -5,6 +5,9 @@ body{
 header{
     margin-top: 75px;
 }
+footer{
+    background-image: url(../img/smartphones.png);
+}
 
 #testimonial {
     background: #f1f1f1;
